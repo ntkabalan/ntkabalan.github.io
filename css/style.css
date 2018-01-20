@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #e1e1e1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon {
+    width: 128px;
+    transition: width 500ms;
+}
+
+.icon:hover {
+    width: 256px;
+    transition: width 500ms;
+}
+
+@media (max-width: 512px) {
+    .logo > img {
+        width: 80%;
+    }
+
+    .icon {
+        width: 64px;
+        transition: width 500ms;
+    }
+    
+    .icon:hover {
+        width: 128px;
+        transition: width 500ms;
+    }
+}
