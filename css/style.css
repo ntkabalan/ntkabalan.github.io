@@ -55,7 +55,7 @@ a {
     display: none;
 }
 
-@media (max-width: 512px) {
+@media (max-width: 812px) {
     .logo > img {
         width: 80%;
     }
