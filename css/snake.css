@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+    background: #222;
+    text-align: center;
+
+    font-family: arcade;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    font-size: 52pt;
+    margin: 65px 0 10px 0;
+}
+
+.current-score {
+    margin-top: 20px;
+}
+
+.high-score {
+    margin-top: 10px;
+}
+
+@font-face {
+    font-family: arcade;
+    src: url('../fonts/arcade.ttf')
+}
