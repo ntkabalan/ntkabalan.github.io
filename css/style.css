@@ -1,5 +1,6 @@
 :root {
     --background-color: #e1e1e1;
+    --font-color: #003954;
 }
 
 html, body {
@@ -22,6 +23,13 @@ a {
 .logo {
     width: 100%;
     text-align: center;
+}
+
+.resume {
+    font-family: Gotham;
+    text-transform: uppercase;
+    color: #003954; 
+    margin-bottom: 20px;
 }
 
 .icons {
