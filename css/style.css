@@ -26,7 +26,7 @@ a {
 }
 
 .resume {
-    font-family: Gotham;
+    font-family: Gotham-ultra;
     text-transform: uppercase;
     color: #003954; 
     margin-bottom: 20px;
@@ -80,4 +80,9 @@ a {
     .snake {
         display: none;
     }
+}
+
+@font-face {
+    font-family: Gotham-ultra;
+    src: url('../fonts/Gotham Ultra.otf')
 }
